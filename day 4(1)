@@ -3,8 +3,9 @@ using namespace std;
 
 int main(){
     
-    int x,y,z;
-    
+    int x,y,z,T;
+    cin>>T;
+  while(T--){
     cin>>x>>y;
     
     if(y<=x){
@@ -16,6 +17,6 @@ int main(){
         z=y-x;
         cout<<x+2*(z);
     }
-    
+    }
     return 0;
 }
