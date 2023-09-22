@@ -9,13 +9,13 @@ int main(){
     cin>>x>>y;
     
     if(y<=x){
-        cout<<y;
+        cout<<y<<endl;
         
     }
     else
     {
         z=y-x;
-        cout<<x+2*(z);
+        cout<<x+2*(z)<<endl;
     }
     }
     return 0;
